@@ -23,3 +23,10 @@
 .crop-img {
     object-fit: cover;
 }
+
+.tim img {
+    width: 250px;
+    height: 250px;
+    border: 10px solid #cccc;
+
+}

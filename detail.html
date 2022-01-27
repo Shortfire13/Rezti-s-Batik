@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Dashboard</title>
+    <title>Detail Produk</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -11,9 +11,9 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <!-- /Font Awesome -->
 
 </head>
 
@@ -39,141 +39,101 @@
     </nav>
     <!-- /navbar -->
 
-    <!-- Jumbotron -->
-    <div class="container-fluid banner">
-        <div class="container text-center">
-            <h4 class="display-6">Selamat Datang Di Rezti's Batik</h4>
-            <h3 class="display-1">Hai! Halo</h3>
-            <a href="#layanan">
-                <button type="button" class="btn btn-danger btn-lg">Cek layanan</button>
-            </a>
-        </div>
-    </div>
-    <!-- /Jumbotron -->
-
-    <!-- Layanan -->
-    <div class="container-fluid layanan pt-5 pb-5">
-        <div class="container-fluid text-center">
-            <h2 class="display-3" id="layanan">Layanan</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio sunt hic nam.</p>
-            <div class="row pt-4">
-                <div class="col-md-4">
-                    <span class="lingkaran">
-                        <i class="fas fa-tshirt fa-4x"></i>
-                    </span>
-                    <h3 class="mt-3">Kain Terbaik</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores, placeat?</p>
-                </div>
-                <div class="col-md-4">
-                    <span class="lingkaran">
-                        <i class="fas fa-chalkboard-teacher fa-4x"></i>
-                    </span>
-                    <h3 class="mt-3">Wisata Edukasi</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores, placeat?</p>
-                </div>
-                <div class="col-md-4">
-                    <span class="lingkaran">
-                        <i class="fas fa-clipboard-list fa-4x"></i>
-                    </span>
-                    <h3 class="mt-3">Terima Pesanan</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores, placeat?</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- /Layanan -->
-
-    <!-- Portofolio -->
-    <div class="container-fluid pt-5 pb-5 bg-light">
-        <div class="container text-center">
-            <h2 class="display-3" id="portofolio">Portofolio</h2>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur nihil repellendus, sunt deserunt rem
-                ut magnam reiciendis quas labore ab.</p>
-            <div class="row pt-4 gx-4 gy-4">
-                <div class="col-md-4">
-                    <div class="card crop-img">
-                        <img src="img/batik1.jpg" class="card-img-top" width="100" height="350">
-                        <div class="card-body">
-                            <h5 class="card-title">Lorem ipsum.</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, et
-                                animi. Culpa ipsam exercitationem alias.</p>
-                            <button class="btn btn-primary">Cek Kain</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card crop-img">
-                        <img src="img/batik2.jpg" class="card-img-top" width="100" height="350">
-                        <div class="card-body">
-                            <h5 class="card-title">Lorem ipsum.</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, et
-                                animi. Culpa ipsam exercitationem alias.</p>
-                            <button class="btn btn-primary">Cek Kain</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card crop-img">
-                        <img src="img/batik3.jpg" class="card-img-top" width="100" height="350">
-                        <div class="card-body">
-                            <h5 class="card-title">Lorem ipsum.</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, et
-                                animi. Culpa ipsam exercitationem alias.</p>
-                            <button class="btn btn-primary">Cek Kain</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <button class="btn btn-danger mt-4">Cek Kain Lainnya</button>
-        </div>
-    </div>
-    <!-- /Portofolio -->
-
-    <!-- About Us -->
-    <div class="container-fluid pt-5 pb-5 ">
+    <!-- Breadcrumbs -->
+    <div class="container-fluid pt-5 mt-5 pb-2 bg-light">
         <div class="container">
-            <h2 class="display-3 text-center" id="about">About Us</h2>
-            <p class="text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum, sapiente!</p>
-            <div class="clearfix pt-5">
-                <img src="img/about.jpg" class="col-md-6 float-md-end mb-3 crop-img" width="300px" height="300px">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, tempore numquam! Minima illum ipsa
-                    delectus.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, tempore numquam! Minima illum ipsa
-                    delectus.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, tempore numquam! Minima illum ipsa
-                    delectus.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur nobis velit beatae culpa
-                    deserunt dolores ratione, corporis quos aut recusandae?</p>
-            </div>
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="#">Dashboard</a></li>
+                    <li class="breadcrumb-item"><a href="#">List Produk</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Detail Produk</li>
+                </ol>
+            </nav>
         </div>
     </div>
-    <!-- /About Us -->
+    <!-- /Breadcrumbs -->
 
-    <!-- Staff -->
-    <div class="container-fluid pt-5 pb-5 bg-light">
-        <div class="container text-center">
-            <h2 class="display-3" id="staff">Tim Kami</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, autem.</p>
-            <div class="row pt-4 gx-4 gy-4">
-                <div class="col-md-4 text-center tim">
-                    <img src="img/steve.jpg" class="rounded-circle mb-3">
-                    <h4>John doe</h4>
-                    <p>CEO</p>
+    <!-- Detail Produk -->
+    <div class="container-fluid pb-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5">
+                    <img src="img/batik1.jpg" class="img-top" width="400" height="500">
                 </div>
-                <div class="col-md-4 text-center tim">
-                    <img src="img/steve.jpg" class="rounded-circle mb-3">
-                    <h4>John doe</h4>
-                    <p>CEO</p>
-                </div>
-                <div class="col-md-4 text-center tim">
-                    <img src="img/steve.jpg" class="rounded-circle mb-3">
-                    <h4>John doe</h4>
-                    <p>CEO</p>
+                <div class="col-lg-5">
+                    <h1>Batik Jember</h1>
+                    <h3>Rp10.000</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt amet at, est voluptatum, doloremque
+                        consectetur a excepturi maxime non ex cupiditate, temporibus ducimus repellat commodi
+                        reprehenderit nisi adipisci animi dicta sapiente mollitia? Dolorum, iste aspernatur.
+                        Exercitationem quae praesentium minima odit.</p>
+                    <a href="" class="btn btn-success mb-2 col-lg-12">
+                        <i class="fab fa-whatsapp"></i>
+                        <span>Pesan Melalui Whatsapp</span>
+                    </a>
+                    <a href="" class="btn btn-danger col-lg-12">
+                        <i class="fab fa-instagram"></i>
+                        <span>Pesan Melalui Instagram</span>
+                    </a>
                 </div>
             </div>
         </div>
     </div>
-    <!-- /Staff -->
+    <!-- /Detail Produk -->
+
+    <!-- Batik Lain -->
+    <div class="container-fluid pt-3 pb-5 bg-light">
+        <div class="container text-center">
+            <h2 class="display-6" id="portofolio">Cek Produk Kami Yang Lain</h2>
+            <div class="row pt-4 gx-4 gy-4">
+                <div class="col-md-3">
+                    <div class="card crop-img">
+                        <img src="img/batik1.jpg" class="card-img-top" width="100" height="250">
+                        <div class="card-body">
+                            <h5 class="card-title">Lorem ipsum.</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, et
+                                animi. Culpa ipsam exercitationem alias.</p>
+                            <button class="btn btn-primary">Cek Kain</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card crop-img">
+                        <img src="img/batik2.jpg" class="card-img-top" width="" height="250">
+                        <div class="card-body">
+                            <h5 class="card-title">Lorem ipsum.</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, et
+                                animi. Culpa ipsam exercitationem alias.</p>
+                            <button class="btn btn-primary">Cek Kain</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card crop-img">
+                        <img src="img/batik3.jpg" class="card-img-top" width="100" height="250">
+                        <div class="card-body">
+                            <h5 class="card-title">Lorem ipsum.</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, et
+                                animi. Culpa ipsam exercitationem alias.</p>
+                            <button class="btn btn-primary">Cek Kain</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card crop-img">
+                        <img src="img/batik4.jpg" class="card-img-top" width="100" height="250">
+                        <div class="card-body">
+                            <h5 class="card-title">Lorem ipsum.</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, et
+                                animi. Culpa ipsam exercitationem alias.</p>
+                            <button class="btn btn-primary">Cek Kain</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /Batik Lain -->
 
     <!-- Kontak Kami -->
     <div class="container-fluid pt-5 pb-5 kontak bg-dark">
